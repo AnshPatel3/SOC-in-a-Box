@@ -9,11 +9,6 @@ This repository documents my SOC-in-a-Box setup using Kali Purple, Elastic Stack
 - Real-time endpoint monitoring with Elastic Defend for Endpoint (EDR).
 - OPNSense firewall integration for network traffic analysis.
 
-### Setup Process:
-1. Installed Elastic Stack on Kali Purple for centralized log collection and analysis.
-2. Configured OPNSense firewall to forward logs to Elasticsearch.
-3. Deployed Elastic Agent on Windows hosts for system monitoring and malware detection.
-
 ### Challenges Faced:
 1️⃣ Fixed DNS resolution issues on Kali Linux by updating /etc/resolv.conf.
 2️⃣ Resolved https issues with self-signed certificates.
